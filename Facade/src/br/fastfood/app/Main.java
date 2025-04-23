@@ -14,14 +14,10 @@ public class Main {
         System.out.print("Sua escolha: ");
         int escolha = in.nextInt();
 
-        /*
-
-         ComboFacade facade = new ComboFacade();
+        ComboFacade facade = new ComboFacade();
         facade.criarCombo(escolha);
         facade.exibirItens();
         System.out.printf("Total a pagar: R$ %.2f%n", facade.getPrecoTotal());
-
-        */
 
     }
 }
