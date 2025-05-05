@@ -2,8 +2,8 @@
 // para executar o código
 
 package br.fastfood.app;
+import br.fastfood.facade.ComboFacade;
 import java.util.Scanner;
-//import br.fastfood.facade.ComboFacade;
 
 public class Main {
     public static void main(String[] args) {

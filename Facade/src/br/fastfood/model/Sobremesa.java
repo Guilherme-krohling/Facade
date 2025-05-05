@@ -1,6 +1,4 @@
-package br.fastfood.facade;
-
-import br.fastfood.model.ItemCombo;
+package br.fastfood.model;
 
 public class Sobremesa implements ItemCombo {
     private final String nome;
@@ -10,13 +8,18 @@ public class Sobremesa implements ItemCombo {
         this.nome=nome;
         this.preco=preco;
     }
-    public String getNome(){
+
+    @Override
+    public String getNome() {
         return nome;
     }
 
-    public double getPreco(){
+
+    @Override
+    public double getPreco() {
         return preco;
     }
+
 
     @Override
     public String toString() {
